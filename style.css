@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family:"logo";
+    src: url(fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+body{
+    min-height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.image-container{
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    background-image: url(/image/bg4.jpeg);
+}
+
+.prject-title{
+    position: absolute;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 20%;
+}
+
+.project-logo{
+    width: 80px;
+}
+
+.project-name{
+    font-family: "logo";
+    font-size: 3rem;
+    color: white;
+}
+
+
+
