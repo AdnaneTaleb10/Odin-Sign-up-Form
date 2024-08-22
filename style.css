@@ -48,5 +48,76 @@ body{
     color: white;
 }
 
+.hero{
+    height: 100vh;
+    width: 60%;
+    background-color: aliceblue;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-paragraph{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.5em 0;
+    line-height: 1.4em;
+}
+
+.joining-paragraph{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2em;
+}
+
+form{
+    background-color: white;
+    padding: 1.5em 3em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-title{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.row > div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+
+}
+
+input{
+    width: 15em;
+    height: 2.2em;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    margin-top: 3px;
+}
+
+input:valid {
+border-color: green;
+}
+
+
+
+
 
 
