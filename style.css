@@ -18,6 +18,7 @@ body{
     display: flex;
     height: 100vh;
     width: 100%;
+    
 }
 
 .image-container{
@@ -48,76 +49,98 @@ body{
     color: white;
 }
 
-.hero{
-    height: 100vh;
+.text-container{
     width: 60%;
     background-color: aliceblue;
 }
 
-.text-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.welcome-space{
+    padding: 2em;
 }
 
-.welcome-paragraph{
+.welcome-sentence{
     font-size: 1.5rem;
     text-align: center;
-    margin: 0.5em 0;
-    line-height: 1.4em;
-}
-
-.joining-paragraph{
-    font-size: 1.5rem;
-    font-weight: 800;
     margin-bottom: 2em;
 }
 
-form{
-    background-color: white;
-    padding: 1.5em 3em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.join{
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
 }
 
-.form-title{
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
-    margin: 0.5em;
+form{
+    background-color: aliceblue;
+}
+
+.form-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 3em;
+    margin-bottom: 2em;
+}
+
+.title{
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-top: 0.3em;
+}
+
+.user-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+    margin-bottom: 1.5em;
 }
 
 .row{
-    display: flex;
-    justify-content: space-around;
-    margin: 2em 0;
+    display: flex; 
+    justify-content: space-around; 
 }
 
-.row > div{
+.input-element{
     display: flex;
     flex-direction: column;
-}
-
-label{
-
+    gap: 0.4em;
 }
 
 input{
-    width: 15em;
-    height: 2.2em;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 4px;
-    margin-top: 3px;
 }
 
-input:valid {
-border-color: green;
+.log-in-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;   
 }
 
+button{
+    padding: 0.8em 1.4em;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(17, 106, 141, 0.973);
+}
 
+.log-in{
+    font-size: 1.3rem;
+}
 
-
-
+a{
+    text-decoration: none;
+    color: rgba(17, 106, 141, 0.973);
+}
 

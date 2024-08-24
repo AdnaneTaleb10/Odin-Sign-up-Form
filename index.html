@@ -15,59 +15,64 @@
                 <p class="project-name">Blossom Haven</p>
             </div>
         </div>
-    
-        <div class="hero">
-            <div class="text-container">
-                <p class="welcome-paragraph">Welcome to Blossom Haven, a peaceful and enchanting Minecraft survival server. Join a community of adventurers where creativity blooms and harmony thrives. Your next great adventure awaits!</p>
-                <p class="joining-paragraph">Join us and thrive!</p>  
+
+        <div class="text-container">
+            <div class="welcome-space">
+                <p class="welcome-sentence">Welcome to Blossom Haven, a peaceful and enchanting Minecraft survival server. Join a community of adventurers where creativity blooms and harmony thrives. Your next great adventure awaits!</p>
+                <p class="join">Join us and thrive!</p>
             </div>
 
-            <form action="#" method="post">
-                <p class="form-title">Sign up</p>
-
+            <form action="#" method="get">
                 <div class="form-container">
-                    <div class="row">
-                        <div>
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                    <p class="title">Sign up</p>
+    
+                    <div class="user-data">
+                        <div class="row">
+                            <div class="input-element">
+                                <label for="first-name">First name</label>
+                                <input type="text" id="first-name" name="first-name" minlength="5" required>
+                            </div>
+    
+                            <div class="input-element">
+                                <label for="last-name">Last name</label>
+                                <input type="text" id="last-name" name="last-name" minlength="5" required>
+                            </div>
                         </div>
-
-                        <div>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" required>
+    
+                        <div class="row">
+                            <div class="input-element">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                            </div>
+    
+                            <div class="input-element">
+                                <label for="phone-number">Phone number</label>
+                                <input type="tel" id="phone-number" name="phone-number" placeholder="123-456-7890" required>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="input-element">
+                                <label for="password">Password</label>
+                                <input type="text" id="password" name="password" minlength="5" required>
+                            </div>
+                                
+                            <div class="input-element">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="text" id="confirm-password" name="confirm-password" minlength="5" required>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="you@example.com" name="email" required>
-                        </div>
-
-                        <div>
-                            <label for="phone-number">Phone number</label>
-                            <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required> 
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-
-                        <div>
-                            <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password" name="confirm-password" required> 
-                        </div>
-                    </div>
-
-
+                </div>
+    
+                <div class="log-in-container">
+                    <button type="submit">Create Account</button>
+                    <p class="log-in">Already have an account? <a href="#">Log in</a></p>
                 </div>
             </form>
 
-            <div class="registration-container"></div>
         </div>
+
     </div>
 
 
