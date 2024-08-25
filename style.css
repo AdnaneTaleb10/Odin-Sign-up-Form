@@ -119,6 +119,14 @@ input{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+input:invalid {
+    border: 2px solid red;
+} 
+
+input:valid {
+    border: 2px solid green;
+}
+
 .log-in-container{
     display: flex;
     flex-direction: column;
@@ -131,8 +139,17 @@ button{
     font-size: 1.2rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
     color: white;
     background-color: rgba(17, 106, 141, 0.973);
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.7;
 }
 
 .log-in{
